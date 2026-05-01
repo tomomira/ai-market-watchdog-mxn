@@ -1,0 +1,43 @@
+# --- Secrets / 環境変数 ---
+.env
+.env.*
+!.env.example
+*.secret
+*secret*
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# --- 仮想環境 ---
+venv/
+.venv/
+env/
+ENV/
+
+# --- IDE / OS ---
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+
+# --- ログ・一時ファイル ---
+*.log
+logs/
+tmp/
+
+# --- gcloud / クラウド認証情報 ---
+*.json
+!package.json
+!tsconfig.json
+service-account*.json
+gcp-key*.json
+credentials*.json
