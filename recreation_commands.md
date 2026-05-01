@@ -15,7 +15,7 @@ gcloud scheduler jobs list --location=asia-northeast1
 
 ```powershell
 # ID002_PoC_Mexicoフォルダに移動
-cd C:\Users\tomom\APP_DEV\ai-market-watchdog-mxn
+cd C:\path\to\ai-market-watchdog-mxn
 
 # Cloud Run Jobを再デプロイ
 gcloud run jobs deploy fx-mxn-watcher `

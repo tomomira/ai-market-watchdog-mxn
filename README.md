@@ -31,7 +31,7 @@ ai-market-watchdog-mxn/
 ### 1. Python仮想環境の構築（Windows PowerShell）
 
 ```powershell
-cd C:\Users\tomom\APP_DEV\ai-market-watchdog-mxn
+cd C:\path\to\ai-market-watchdog-mxn
 python -m venv venv
 .\venv\Scripts\Activate.ps1
 pip install -r requirements.txt

@@ -1,6 +1,6 @@
 # AI FX市場監視Bot 実装・運用手順書（メキシコペソ版）
 
-**作業場所**: `C:\Users\tomom\APP_DEV\ai-market-watchdog-mxn`
+**作業場所**: `C:\path\to\ai-market-watchdog-mxn`
 
 ### 📂 フォルダ構成
 作業フォルダ（ID002_PoC_Mexico）の中身は、最終的に以下のようになります。
@@ -50,7 +50,7 @@ ID002_PoC_Mexico/
 PowerShellで対象のディレクトリへ移動します。
 
 ```powershell
-cd C:\Users\tomom\APP_DEV\ai-market-watchdog-mxn
+cd C:\path\to\ai-market-watchdog-mxn
 ```
 
 ### 2. 仮想環境 (venv) の構築
@@ -621,7 +621,7 @@ gcloud run jobs update fx-mxn-watcher `
 #### 再デプロイ（コード更新時）
 ```powershell
 # フォルダに移動
-cd C:\Users\tomom\APP_DEV\ai-market-watchdog-mxn
+cd C:\path\to\ai-market-watchdog-mxn
 
 # 再デプロイ
 gcloud run jobs deploy fx-mxn-watcher `
